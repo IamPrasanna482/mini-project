@@ -13,13 +13,15 @@
   <body>
     <nav class="navbar">
       <div class="left">
-      <div id="logo"><h1>Online Class Scheduler</h1></div>
+      <div id="logo"><h1>Easy Classes</h1></div>
+        <img src="/EC.png" alt="">
       <div>
-      <ul>
-        <li><a href="#">View Your Classes </a></li>
-      </ul>
+
     </div>
     </div>
+    <ul>
+      <li><a href="#">View Your Classes </a></li>
+    </ul>
       <div class="searchBox">
         <input type="search" name="searchBar" placeholder="Search" id="searchTxt" />
         <button class="btn">Search Teacher</button>
@@ -28,7 +30,8 @@
 
     <div class="wrapper">
       <h1 class="heading">Schedule Your Online Classes Easily</h1>
-      <label for="addingNote" class="addingNote">Add Your Class Timing</label> <br />
+      <div class="take-input">
+      <label for="addingNote" class="addingNote">Class Timings</label> <br />
       <input
         name="textarea"
         id="title"
@@ -37,19 +40,18 @@
         placeholder="Enter batch timing"
       ></input>
       <br />
-      <label for="addingNote" class="addingNote">Add Your Professor</label> <br />
+      <label for="addingNote" class="addingNote">Teacher</label> <br />
       <input name="textarea" id="note-text" cols="100" rows="6" placeholder="Enter teacher's name"></input>
       <br>
       <label for="link" class="addingNote">Meeting Link</label> <br />
       <input name="link"  cols="100" rows="6" placeholder="Enter meeting link" id="link"></input>
-
       <br />
       <button class="note-btn">Schedule Class</button>
-     
+      </div>
       <h1 class="class">Your Classes</h1>
-
       <hr class="hr"/>
       <div class="showNotes" id="notes"></div>
+    
     </div>
 
     <script src="script.js"></script>
