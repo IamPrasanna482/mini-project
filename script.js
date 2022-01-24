@@ -47,10 +47,10 @@ function showNotes() {
 
   let insertNotes = document.getElementById("notes");
   if (notesObj.length == 0) {
-    insertNotes.innerHTML = `Nothing to show! Please click on "Schedule Batch" button to add a new class.`;
-    insertNotes.style.color = "gray";
+    insertNotes.innerHTML = `Nothing to show! Please click on "Schedule Class" button to add a new class.`;
+    insertNotes.style.color = "black";
     insertNotes.style.paddingTop = "10px";
-    insertNotes.style.fontSize = "15px";
+    insertNotes.style.fontSize = "20px";
   } else {
     insertNotes.innerHTML = html;
   }
